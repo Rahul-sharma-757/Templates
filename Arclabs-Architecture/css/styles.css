@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+.font-sizeicon
+{
+    font-size: 4em;
+}
+.background
+{
+    position: relative;
+}
+.background-image
+{
+    background: url(../images/header-bg.jpg) center top no-repeat;
+    width: 100%;
+    height: 892px;
+    background-size: conver;
+    background-attachment: fixed;
+}
+.layer
+{
+    position: absolute;
+    background-color: rgba(5,10,52,0.6);
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;  
+}
+.nav-active:hover
+{
+    color: #cea06c;
+}
+.layer2
+{
+    position: absolute;
+    background-color: rgba(5, 10, 52, 0.719);
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;  
+}
+.backgroundtext
+{
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    transform: translate(-50%,-50%);
+}
+.backgroundimg
+{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    transform: rotate(270deg);
+}
+.imgheight
+{
+    height: 100px;
+    width: 600px;
+    opacity: 0.1;
+    margin-bottom: 150px;
+}
+.backgroundicon
+{
+    position: absolute;
+    bottom: 4%;
+    left: 4%;
+    transform: translate(-50%,-50%);
+}
+.activenav
+{
+    color:#cea06c;
+}
+.outlineborderbtn
+{
+    border:1px solid #cea06c;
+}
+.outlineborderbtn:hover
+{
+    background-color: #cea06c;
+    color: #fff;
+}
+.background-color
+{
+    background-color: rgba(163, 163, 163, 0.171);
+}
+.project
+{
+    position: absolute;
+    top: 0%;
+    right: 22px;
+}
+.bg-text
+{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%.-50%);
+}
+.videoicon-border
+{
+    border: rgba(255, 255, 255, 0.199) 20px solid;
+}
+.opacity
+{
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.opacity:hover{
+    opacity:1;
+    transition: 0.5s;
+}
+.footnav,.text-color
+{
+    color: #87898f;
+}
+.footnav:hover
+{
+    color: #fff;
+}
+.input::placeholder
+{
+    color: teal;
+    padding-left: 20px;
+}
+.last{
+    color: #cea06c;
+    text-decoration: none;
+}
+.last:hover{
+    color: #cea06c;
+}
+.icon-background
+{
+    background: #334f6c;
+}
+.last:hover{
+    color: #cea06c;
+}
+.footer-area
+{
+    background: #0e1424;
+}
+.icon-background:hover
+{
+    background-color: #cea06c;
+    transition: ease-in-out 0.5s;
+}
+.border-outline
+{
+    border: 1px solid #cea06c00;
+}
+.border-outline:hover
+{
+    border: 1px solid #cea06c;
+}
